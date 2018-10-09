@@ -1,0 +1,27 @@
+.invite_doctor .am-list-item.am-input-item {
+    height: 1.2rem;
+}
+
+.invite_doctor .am-list-item.am-input-item::after {
+    border-width: 0;
+}
+
+.invite_doctor .am-list-item.am-input-item .am-input-control {
+    background: #F8FBFF;
+    border: 1px solid #ECF2FF;
+    border-radius: 29px;
+    padding: 10px 50px 10px 22px;
+}
+
+.invite_doctor .code .am-list-item.am-input-item .am-input-control {
+    padding-right: 120px;
+}
+
+.invite_doctor .am-list-item .am-input-control input {
+    line-height: 1.3;
+}
+
+.invite_doctor .am-list-item .am-input-control input::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 1.3;
+}

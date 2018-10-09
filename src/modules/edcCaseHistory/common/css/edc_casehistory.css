@@ -1,0 +1,228 @@
+/*start -- 文字内容两行显示*/
+.line-clamp {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/*end -- 文字内容两行显示*/
+
+/*start -- 患者端 and 医生端*/
+.patient-info-edit .am-list {
+    margin-top: 10px;
+}
+
+.patient-info-edit .am-input-control input {
+    text-align: right;
+}
+
+.patient-info-edit .am-list-item .am-input-extra {
+    font-size: 18px;
+    color: #000000;
+}
+
+.patient-info-edit .am-list-item .am-list-line .am-list-extra {
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    color: #ddd;
+}
+
+.patient-info-edit .am-list .am-list-item.am-input-item,
+.patient-info-edit .am-list-body div:not(:last-child) .am-list-line:after {
+    border-bottom: 1px solid #ccc;
+}
+
+.patient-info-edit .am-list a .am-list-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.patient-info-edit .am-list-body:after {
+    border-bottom: 0;
+}
+
+.patient-info-edit .am-list-item .am-list-line {
+    position: static;
+}
+
+.patient-info-edit .am-list .am-list-item.am-input-item:after {
+    border: 0;
+}
+
+.patient-info-edit .edit-title.am-list-item .am-list-line .am-list-content {
+    min-width: 80px;
+}
+/*end -- 患者端 and 医生端*/
+
+/*start -- 患者端*/
+.list-item-extra-color .am-list-item .am-list-line .am-list-extra,
+.patient-info-edit .patient-extra-color .am-list-item .am-list-line .am-list-extra {
+    color: #000;
+}
+
+.patient-info-edit .patient-extra-color .am-list-item.am-list-item-active {
+    background-color: #fff;
+}
+/*end -- 患者端*/
+
+/*start -- 患者端 and 医生端 accordion-container展开列表*/
+.accordion-container .am-list-body {
+    border: 0;
+}
+
+.accordion-container .am-accordion .am-accordion-item .am-accordion-header {
+    background-color: #fafafa;
+}
+
+.accordion-container .am-list-body div:not(:last-child) .am-list-line:after {
+    border-bottom: 1px solid #eee;
+}
+
+.accordion-container .am-list-item,
+.accordion-container .am-list-item .am-list-line {
+    min-height: .5rem;
+}
+
+.accordion-container .am-list-item .am-list-line .am-list-content {
+    font-size: .32rem;
+    padding-bottom: .15rem;
+    padding-top: .15rem;
+    line-height: 1.5;
+}
+
+.accordion-container p {
+    padding-bottom: .15rem;
+    white-space: normal;
+    line-height: 1.5;
+}
+
+.accordion-container img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.accordion-container .am-flexbox .am-flexbox-item {
+    margin-left: 0;
+}
+/*end -- 患者端 and 医生端*/
+
+/*start -- 通用按钮*/
+.set-btn-color .am-button-primary {
+    background-color: #42cf7b;
+    border: 1px solid #42cf7b;
+}
+/*end -- 通用按钮*/
+
+/*start -- 添加检查项*/
+.add-check-item .date-picker .am-list-item .am-list-extra {
+    color: #000;
+}
+/*end -- 添加检查项*/
+
+/*start -- 修改Popup弹出样式*/
+.add-check-item-popup .popup-list .am-list-body {
+    height: 3.8rem;
+    overflow: auto;
+}
+/*end -- 修改Popup弹出样式*/
+
+/*疾病选择重写样式 start*/
+.ill-list-wrapper {
+    -webkit-overflow-scrolling: touch;
+}
+
+.select-disease-wapper {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.select-disease-wapper .am-list-item.am-list-item-active {
+    background-color: transparent;
+}
+
+.select-disease-wapper .am-list-body {
+    border-top: none;
+}
+
+/*疾病选择重写样式 end*/
+
+/*兼容IOS端流畅滚动 start*/
+.scroll-box {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    height: 100%;
+}
+/*兼容IOS端流畅滚动 end*/
+
+.list-item-small-extra .am-list-item .am-list-line .am-list-extra {
+    font-size: 12px;
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+}
+
+.edit-disease-condition .am-textarea-control textarea::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #666;
+}
+
+.edit-disease-condition .am-textarea-control textarea:-moz-placeholder {
+    font-size: 14px;
+    color: #666;
+}
+
+.edit-disease-condition .am-textarea-control textarea::-moz-placeholder {
+    font-size: 14px;
+    color: #666;
+}
+
+.edit-disease-condition .am-textarea-control textarea:-ms-input-placeholder {
+    font-size: 14px;
+    color: #666;
+}
+
+.consultation-report-container pre,
+.disease-condition-container pre {
+    font-size: 14px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    white-space: pre-wrap;
+    font-family: sans-serif !important;
+    color: #000;
+}
+
+.edit-disease-condition .am-textarea-count {
+    bottom: -0.1rem;
+}
+
+.display-flex {
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;   
+}
+
+.flex1 {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.word-break {
+    -ms-word-break: break-all;
+    word-break: break-all;
+    white-space: pre-wrap;
+    color: #000;
+}

@@ -1,0 +1,155 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body,
+html {
+    font-size: 20px;
+    height: 100%;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-size: .65rem;
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-color: #fbf9fe;
+}
+
+a,
+button,
+.click-active {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+.click-active:active {
+    background-color: #ddd;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.text-ellipsis {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
+.break-word {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+
+/*富文本*/
+
+.rich-text * {
+    word-break: break-all !important;
+    max-width: 100% !important;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.text-blue {
+    color: #496fb7;
+}
+
+.bg-orange {
+    background-color: #fe8953;
+}
+
+.border_bottom {
+    position: relative;
+}
+
+.border_bottom:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #d9d9d9;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(.5);
+    -moz-transform: scaleY(.5);
+    -ms-transform: scaleY(.5);
+    -o-transform: scaleY(.5);
+    transform: scaleY(.5);
+}
+
+.border_top {
+    position: relative;
+}
+
+.border_top:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #d9d9d9;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(.5);
+    -moz-transform: scaleY(.5);
+    -ms-transform: scaleY(.5);
+    -o-transform: scaleY(.5);
+    transform: scaleY(.5);
+}
+/***********病情资料 - start-**************/
+.timeInfo{
+  color: #aaaaaa;
+  font-size: 12px;
+}
+.diseaseEdit .am-list-content{
+  width: 15%;
+  color:#aaaaaa;
+}
+.diseaseEdit .am-list-extra{
+  width: auto;
+}
+.am-textarea-control textarea{
+  border-bottom: 0 !important;
+}
+.am-list .am-list-item.am-textarea-item:after{
+  border-bottom: 0 !important;
+}
+/*********病情资料- end-**********************/
+
+/*start -- 去除原生滚动条*/
+::-webkit-scrollbar{
+    display: none;
+}
+/*start -- 去除原生滚动条*/

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="13px" viewBox="0 0 20 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>眼睛</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="邀请页面" transform="translate(-303.000000, -440.000000)" fill-rule="nonzero" fill="#6A93E0">
+            <g id="眼睛" transform="translate(303.000000, 440.000000)">
+                <path d="M7,6.5 C7,7.88071187 8.11928813,9 9.5,9 C10.8807119,9 12,7.88071187 12,6.5 C12,5.11928813 10.8807119,4 9.5,4 C8.11928813,4 7,5.11928813 7,6.5 L7,6.5 Z" id="Shape"></path>
+                <path d="M9.79788427,0 C3.4401877,0 0,6.494697 0,6.494697 C0,6.494697 4.46562489,13 10.0713233,13 C15.6770217,13 20,6.43812391 20,6.43812391 C20,6.43812391 16.1555808,0 9.79788427,0 Z M10.0000117,11.2494531 C7.35163976,11.2494531 5.20469347,9.1230646 5.20469347,6.5 C5.20469347,3.8769354 7.35161636,1.75054687 10.0000117,1.75054687 C12.648407,1.75054687 14.7953299,3.8769354 14.7953299,6.5 C14.7953299,9.1230646 12.6483836,11.2494531 10.0000117,11.2494531 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
